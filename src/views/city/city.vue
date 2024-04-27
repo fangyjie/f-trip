@@ -3,7 +3,7 @@
   import { storeToRefs } from 'pinia'
   import { ref } from 'vue'
   import useCityStore from '@/stores/modules/city'
-  import cityGroup from './cpns/city-group.vue'
+  import CityGroup from './cpns/city-group.vue'
 
   // 搜索框
   const searchVal = ref('')

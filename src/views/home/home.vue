@@ -1,10 +1,10 @@
 <script setup>
   import useScroll from '@/hooks/useScroll'
   import useHomeStore from '@/stores/modules/home'
-  import homeNavBar from './cpns/home-nav-bar.vue'
-  import homeSearchBox from './cpns/home-search-box.vue'
-  import homeCategories from './cpns/home-categories.vue'
-  import homeContent from './cpns/home-content.vue'
+  import HomeNavBar from './cpns/home-nav-bar.vue'
+  import HomeSearchBox from './cpns/home-search-box.vue'
+  import HomeCategories from './cpns/home-categories.vue'
+  import HomeContent from './cpns/home-content.vue'
   import searchBar from '@/components/search-bar/search-bar.vue'
   import { watch, computed } from 'vue'
 
