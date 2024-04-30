@@ -49,7 +49,6 @@
       .cover {
         img {
           width: 100%;
-          vertical-align: top;
           border-top-left-radius: 6px;
           border-top-right-radius: 6px;
         }

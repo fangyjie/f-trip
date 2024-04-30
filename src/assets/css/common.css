@@ -18,10 +18,14 @@ html {
   background-color: #f7f8fb;
 }
 
-body {
+/* body {
   font-family: PingFangSC-Regular, Helvetica Neue, sans-serif;
-}
+} */
 
 .bottom-gray-line {
   border-bottom: 1px solid #f8f9f9;
+}
+
+img {
+  vertical-align: top;
 }
