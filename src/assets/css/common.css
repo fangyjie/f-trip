@@ -22,10 +22,19 @@ html {
   font-family: PingFangSC-Regular, Helvetica Neue, sans-serif;
 } */
 
+img {
+  vertical-align: top;
+}
+
 .bottom-gray-line {
   border-bottom: 1px solid #f8f9f9;
 }
 
-img {
-  vertical-align: top;
+.top-bar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
 }

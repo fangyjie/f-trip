@@ -51,10 +51,11 @@
         font-size: 10px;
         display: flex;
         justify-content: center;
+        align-items: center;
 
         .date {
           color: #333333;
-          padding: 0 10px 0 3px;
+          padding: 2px 10px 0 3px;
         }
       }
     }

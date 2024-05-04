@@ -33,7 +33,7 @@
     </div>
     <home-search-box />
     <home-categories />
-    <div v-if="isShowSearch" class="home-top">
+    <div v-if="isShowSearch" class="home-top top-bar">
       <search-bar />
     </div>
     <home-content />
@@ -51,14 +51,8 @@
     }
 
     .home-top {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 2;
       height: 45px;
       padding: 16px 16px 10px;
-      background-color: #fff;
     }
   }
 </style>
